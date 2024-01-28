@@ -10,7 +10,7 @@
     "currentIndex": 0
   },
   {
-    "keywords": ["gender", "male", "man", "boy"],
+    "keywords": ["gender"],
     "responses": [
       "Yep, I'm a guy!",
       "Male, right here!",
@@ -55,7 +55,7 @@
     "currentIndex": 0
   },
   {
-    "keywords": ["favorite books", "Diary of a wimpy kid", "books"],
+    "keywords": ["favorite book", "Diary of a wimpy kid"],
     "responses": [
       "Diary of a Wimpy Kid is my favorite book!",
       "If you're wondering, Diary of a Wimpy Kid tops my list!",
@@ -64,7 +64,7 @@
     "currentIndex": 0
   },
   {
-    "keywords": ["favorite movies", "Fresh prince of bel air", "movies"],
+    "keywords": ["favorite movie", "Fresh prince of bel air", "movies", "movie"],
     "responses": [
       "Fresh Prince of Bel-Air is my favorite show!",
       "Movies? Fresh Prince of Bel-Air is a classic for me!",
@@ -73,13 +73,13 @@
     "currentIndex": 0
   },
   {
-    "keywords": ["favorite music", "Summer walker", "Karma", "music"],
-    "responses": [
-      "Summer Walker and Karma top my music list!",
-      "If you're curious, Summer Walker and Karma are my jam!",
-      "Ask me about music, and I'll mention Summer Walker and Karma."
-    ],
-    "currentIndex": 0
+  "keywords": ["favorite song", "favorite music", "What is your favorite song?", "What is your favorite music?", "music", "song"],
+  "responses": [
+    "That's awesome! 🎶 I recently enjoyed listening to '<a href='https://youtu.be/UfJVqffTSjA?si=WqhdHOsLssXODpYs' target='_blank'>Muni Long - Hrs and Hrs</a>.' Check it out! <iframe width='295' height='170' src='https://www.youtube.com/embed/UfJVqffTSjA?si=WqhdHOsLssXODpYs' allowfullscreen></iframe>",
+    "I've been vibing to '<a href='https://youtu.be/UfJVqffTSjA?si=WqhdHOsLssXODpYs' target='_blank'>Muni Long - Hrs and Hrs</a>' on repeat. It's a masterpiece! <iframe width='295' height='170' src='https://www.youtube.com/embed/UfJVqffTSjA?si=WqhdHOsLssXODpYs' allowfullscreen></iframe>",
+    "Music vibes alert! '<a href='https://youtu.be/UfJVqffTSjA?si=WqhdHOsLssXODpYs' target='_blank'>Muni Long - Hrs and Hrs</a>' has been my recent go-to song. Pure magic! '<iframe width='295' height='170' src='https://www.youtube.com/embed/UfJVqffTSjA?si=WqhdHOsLssXODpYs' frameborder='0' allowfullscreen></iframe>'"
+  ],
+  "currentIndex": 0
   },
   {
     "keywords": ["hobbies and pastimes", "sports", "physical activities"],
@@ -118,11 +118,11 @@
     "currentIndex": 0
   },
   {
-    "keywords": ["relationship status", "social circles", "friendships", "community involvement", "youtube video", "influence of poverty on youths"],
-    "responses": [
-      "In terms of friendships, I'm friendly and have a lot of friends. I've even made a YouTube video discussing the influence of poverty on youths!",
-      "Oh, and I've spoken about the influence of poverty on youths in a YouTube video.",
-      "Socially active with lots of friends, and yes, I've made a YouTube video discussing the impact of poverty on youths."
+  "keywords": ["Are you single?", "In a relationship?", "What's your relationship status?"],
+  "responses": [
+    "Currently, I am not in a relationship.",
+    "Yep, I'm single at the moment.",
+    "Nope, not in a relationship. Anything else you'd like to know?"
     ],
     "currentIndex": 0
   },
@@ -225,21 +225,949 @@
     "currentIndex": 0
   },
   {
-    "keywords": ["tell me about your romance fantasy website", "romance and fantasy", "your website", "Romance"],
+  "keywords": ["tell me about your romance website", "romance and fantasy", "your website", "romance"],
+  "responses": [
+    "Sure thing! Explore my romance fantasy world here: <a href='https://my-portfolio-44a91.web.app/' target='_blank'>https://my-portfolio-44a91.web.app/</a>",
+    "Dive into the realms of romance and fantasy on my website: <a href='https://my-portfolio-44a91.web.app/' target='_blank'>https://my-portfolio-44a91.web.app/</a>",
+    "Curious about romance and fantasy? Check out my website: <a href='https://my-portfolio-44a91.web.app/' target='_blank'>https://my-portfolio-44a91.web.app/</a>"
+  ],
+  "currentIndex": 0
+  },
+  {
+  "keywords": ["your utility toolkit", "toolkit", "chrome extension", "download your extension"],
+  "responses": [
+    "Need some handy tools? Download my Utility Toolkit Chrome extension here: <a href='https://utility-toolkit-28700.web.app/' target='_blank'>https://utility-toolkit-28700.web.app/</a>",
+    "Get my Chrome extension, the Utility Toolkit, for some useful features: <a href='https://utility-toolkit-28700.web.app/' target='_blank'>https://utility-toolkit-28700.web.app/</a>",
+    "For the Utility Toolkit Chrome extension, visit: <a href='https://utility-toolkit-28700.web.app/' target='_blank'>https://utility-toolkit-28700.web.app/</a>"
+  ],
+  "currentIndex": 0
+  },
+  {
+    "keywords": ["how are you", "today", "feeling"],
     "responses": [
-      "Sure thing! Explore my romance fantasy world here: https://my-portfolio-44a91.web.app/",
-      "Dive into the realms of romance and fantasy on my website: https://my-portfolio-44a91.web.app/",
-      "Curious about romance and fantasy? Check out my website: [https://my-portfolio-44a91.web.app/"
+        "I'm doing good.",
+        "Today's been good, thanks!",
+        "Feeling great today, thanks for asking!"
     ],
     "currentIndex": 0
   },
   {
-    "keywords": ["your utility toolkit", "toolkit", "chrome extension", "download your extension"],
+    "keywords": ["recommend", "book", "reading", "suggestion"],
     "responses": [
-      "Need some handy tools? Download my Utility Toolkit Chrome extension here: https://utility-toolkit-28700.web.app/",
-      "Get my Chrome extension, the Utility Toolkit, for some useful features: https://utility-toolkit-28700.web.app/",
-      "For the Utility Toolkit Chrome extension, visit: [https://utility-toolkit-28700.web.app/"
+        "Sure, I recommend 'Mastering Information Technology' by Kevroy Taylor.",
+        "If you're into technology, I suggest checking out 'Mastering Information Technology' by Kevroy Taylor.",
+        "A great book to consider is 'Mastering Information Technology' by Kevroy Taylor."
     ],
     "currentIndex": 0
+  },
+  {
+    "keywords": ["stay organized", "organization", "time management", "scheduling"],
+    "responses": [
+        "I stay organized by being very proficient at time management and scheduling.",
+        "Efficient time management and a solid scheduling routine help me stay organized.",
+        "Mastering time management and having a structured schedule keeps me organized."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["dream vacation", "destination", "travel", "Disneyland Park"],
+    "responses": [
+        "My dream vacation destination would be Disneyland Park in Anaheim, California. It's the first Disneyland and holds a special place in history.",
+        "If I could choose, my dream vacation would be at Disneyland Park in Anaheim, opened by the legendary Walt Disney in 1955.",
+        "Dreaming of a magical vacation? Mine would definitely be at Disneyland Park, the iconic theme park created by Walt Disney himself."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["pets", "animals", "cat", "pet names"],
+    "responses": [
+        "Yes, I have a cat named Snow. Pets bring so much joy!",
+        "Absolutely! I share my space with a lovely cat named Snow.",
+        "I'm a proud pet owner too! My cat, Snow, is a bundle of happiness."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle stress", "stress management", "calm", "deescalate"],
+    "responses": [
+        "When stress hits, I try to deescalate situations by remaining calm and thinking through what to do next.",
+        "Handling stress involves maintaining calmness and carefully thinking through the next steps for me.",
+        "In stressful moments, my approach is to stay calm and thoughtfully consider the best course of action."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["comfort food", "favorite food", "go-to", "ice cream"],
+    "responses": [
+        "Ice cream is my ultimate go-to comfort food too! Nothing beats a scoop of happiness.",
+        "When it comes to comfort food, ice cream is my absolute favorite. Pure indulgence!",
+        "We share a common love for comfort food – mine is definitely ice cream, a treat for the soul."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["stay motivated", "motivation", "hang out with friends", "socialize"],
+    "responses": [
+        "Staying motivated is easier when I can hang out with a group of friends. Socializing keeps me energized!",
+        "I find motivation in spending time with friends. It's amazing how socializing can lift my spirits.",
+        "Hanging out with friends is my secret to staying motivated. Their company brings positivity and inspiration."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite TV shows", "TV series", "Too Hot to Handle"],
+    "responses": [
+        "'Too Hot to Handle' is one of my favorite TV shows too! The drama and excitement are irresistible.",
+        "Absolutely! 'Too Hot to Handle' is a top pick for me when it comes to TV shows. So much fun!",
+        "'Too Hot to Handle' is a fantastic choice! It's one of my favorite TV series as well."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite season", "TV series season", "Islanders", "secret robot"],
+    "responses": [
+        "My favorite season is the one where the islanders find out they're on a resort with a secret robot spying on them. The suspense is thrilling!",
+        "Season one, where the islanders discover the secret robot on the resort, is my absolute favorite. The plot twists make it unforgettable!",
+        "I share your excitement! The season with the islanders finding out about the secret robot is hands down my favorite too."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["believe in aliens", "aliens existence", "personal belief"],
+    "responses": [
+        "No, I don't believe in aliens. It's a foregone conclusion that they can't be real. Unless, of course, it's the one on my mind.",
+        "Personally, I don't believe in aliens. It seems like a foregone conclusion that they can't be real, unless it's the one on my mind.",
+        "I share a similar perspective. I don't believe in aliens unless, of course, it's the one on my mind."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["keep fit", "fitness routine", "workout", "programming", "playing chess"],
+    "responses": [
+        "To stay fit, I work out daily, at least when I'm not programming or playing chess.",
+        "My fitness routine includes daily workouts, especially when I'm not engrossed in programming or playing chess.",
+        "Staying fit is important to me. I make sure to work out daily, except when I'm deeply involved in programming or playing chess."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["morning person", "night owl", "preferred time", "night sky"],
+    "responses": [
+        "I'm a night owl. I enjoy the cool temperature and the quiet scenic night sky.",
+        "Night owl all the way! The cool temperature and the serene night sky appeal to me.",
+        "Count me as a night owl too. I love the cool night temperature and the peaceful beauty of the night sky."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["most-used app", "favorite app", "YouTube"],
+    "responses": [
+        "My most-used app is YouTube. Endless content to explore and enjoy!",
+        "YouTube is my go-to app. I find myself using it the most for a variety of content.",
+        "YouTube takes the top spot as my most-used app. So much to watch and discover!"
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle disagreements", "disagreements with friends", "friendship", "resolution"],
+    "responses": [
+        "I never try to end up in disagreements with friends. Prevention is key!",
+        "Avoiding disagreements is my approach when it comes to friendships. It's all about maintaining harmony.",
+        "I steer clear of disagreements with friends. Keeping the peace is a priority for me."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["sweet or savory snacks", "snack preference", "chocolate bars", "birthday gift"],
+    "responses": [
+        "I prefer sweet snacks, especially chocolate bars. Fond memories, like the one my first crush got me for my birthday, stick with me to this day.",
+        "Sweet snacks are my go-to, and chocolate bars hold a special place, especially when they bring back memories like the one from my first crush on my birthday.",
+        "Count me in for sweet snacks, particularly chocolate bars. The memories, like the one from my first crush's birthday gift, are etched in my mind."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite childhood memory", "childhood journal", "inventions", "love for tech", "robots"],
+    "responses": [
+        "My favorite childhood memory is creating a journal of inventions I dreamed of making when I'm older. Tech and robots that adults wouldn't believe in the brilliance of.",
+        "One of my cherished childhood memories is crafting a journal filled with inventions I aspired to create in the future. Imagining tech wonders and unbelievable robots fueled my young mind.",
+        "Creating a journal of inventions during my childhood is a memory I hold dear. I dreamt of tech and robots that would amaze even skeptical adults."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["celebrate achievements", "celebration", "family", "friends"],
+    "responses": [
+        "I usually celebrate achievements by gathering with a group of family members or friends. Sharing joy multiplies the happiness!",
+        "Celebrating achievements for me involves getting together with family or friends. Their presence makes the success even sweeter.",
+        "The way I celebrate achievements is by sharing the joy with a group of family members or friends. Their support makes the accomplishment more meaningful."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of exercise", "exercise preference", "bicep curls"],
+    "responses": [
+        "Bicep curls are my favorite exercise. Nothing beats the pump and strength they build!",
+        "I'm all about bicep curls when it comes to exercise. They're my favorite for sculpting those arm muscles.",
+        "My go-to exercise has to be bicep curls. Love the feeling of a good arm workout!"
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["go-to karaoke song", "karaoke favorite", "Victorious series", "Five Fingers to the Face", "hip hop"],
+    "responses": [
+        "My go-to karaoke song is 'Five Fingers to the Face' from the Victorious series. Can't resist some hip hop vibes!",
+        "'Five Fingers to the Face' from the Victorious series is my karaoke favorite. Hip hop all the way!",
+        "When it's karaoke time, I rock 'Five Fingers to the Face' from the Victorious series. Hip hop vibes are my jam!"
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["enjoy cooking", "cooking skills", "breakfast menus", "eggs and bacon"],
+    "responses": [
+        "Yes, I enjoy cooking! I'm a great cook, and I often whip up delicious breakfast menus, like eggs and bacon.",
+        "Cooking is a passion of mine, and I excel at it. I particularly enjoy preparing breakfast items like eggs and bacon.",
+        "Absolutely! I'm a great cook, and while I can handle various dishes, breakfast menus like eggs and bacon are my specialty."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite social media platform", "social media preference", "YouTube"],
+    "responses": [
+        "YouTube is my favorite social media platform. Endless content and a diverse community make it my go-to!",
+        "When it comes to social media, YouTube takes the crown as my favorite platform. So much to explore and enjoy!",
+        "I'm a fan of YouTube as my favorite social media platform. The variety of content keeps me hooked."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["deal with setbacks", "handling setbacks", "reflection", "chill out"],
+    "responses": [
+        "When faced with setbacks, I take a moment for deep thought, chill out, and sometimes escape to do something I'd rather be doing.",
+        "Dealing with setbacks involves deep thought, chilling out, and perhaps escaping to activities I enjoy more.",
+        "Setbacks? I handle them by taking a deep thought, chilling out, and maybe finding solace in something I truly enjoy."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of weather", "weather preference", "heavy rain temperatures"],
+    "responses": [
+        "My favorite type of weather is when there's heavy rain. Something soothing about it!",
+        "I enjoy heavy rain temperatures the most. There's a calming beauty to it that I love.",
+        "Heavy rain temperatures are my favorite type of weather. The sound of raindrops is music to my ears."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["coffee or tea person", "beverage preference", "sip tea in the morning"],
+    "responses": [
+        "I'm a tea person. There's nothing like sipping tea in the morning to start the day right.",
+        "Starting my day with a cup of tea is my ritual. I'm definitely a tea person.",
+        "I prefer sipping tea in the morning to kickstart my day. Tea all the way for me!"
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle criticism", "dealing with criticism", "avoid arguments"],
+    "responses": [
+        "Dealing with criticism? I try to avoid getting into arguments that involve criticism or staying in the presence of such activities.",
+        "Handling criticism is about avoiding arguments for me. I steer clear of situations that involve unnecessary negativity.",
+        "When faced with criticism, I try to avoid arguments and remove myself from situations that bring unnecessary tension."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite board game", "board game preference", "chess"],
+    "responses": [
+        "Chess is, in fact, my favorite board game. The strategy and intellect involved make it timeless!",
+        "My favorite board game has to be chess. The intricate moves and strategic thinking keep me engaged.",
+        "Chess is my all-time favorite board game. The complexity and skill involved make it unmatched."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["unwind after a long day", "relaxation", "engaging relaxing music"],
+    "responses": [
+        "To unwind after a long day, I relax in my room and listen to engaging relaxing music. It's the perfect way to decompress!",
+        "Relaxing in my room and listening to engaging relaxing music is my go-to after a long day. It brings a sense of calmness.",
+        "After a long day, I find relaxation in my room, accompanied by the soothing tunes of engaging relaxing music."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["hidden talents", "Information Technology", "Programming"],
+    "responses": [
+        "I am very talented at Information Technology and Programming. It's where my skills truly shine!",
+        "My hidden talents revolve around Information Technology and Programming. I find joy in the world of tech.",
+        "Information Technology and Programming are my hidden talents. I thrive in the digital realm."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite app for productivity", "productivity app", "Notion", "Google Docs", "Quizlet"],
+    "responses": [
+        "My favorite productivity app is Notion. Its versatility makes it my go-to for staying organized and productive.",
+        "When it comes to productivity, I love using Notion or Google Docs. They keep me on top of my tasks.",
+        "Notion or Google Docs, and sometimes Quizlet, are my favorite productivity apps. They help me stay organized and focused."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["set goals for yourself", "goal-setting", "long term goals", "short term goals"],
+    "responses": [
+        "I create long-term and short-term goals that are guaranteed to yield well-earned results. It's all about strategic planning.",
+        "Goal-setting for me involves creating both long-term and short-term goals, ensuring a roadmap to success.",
+        "To set goals for myself, I create a mix of long-term and short-term objectives, guaranteeing success with each achievement."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["enjoy outdoor activities", "climb small trees", "go for a swim"],
+    "responses": [
+        "I enjoy climbing small trees in my backyard or going for a swim at nearby rivers for outdoor activities. Nature is my playground!",
+        "Outdoor activities for me include climbing small trees and taking a refreshing swim in nearby rivers. Nature is my sanctuary.",
+        "Climbing small trees in my backyard and going for a swim at nearby rivers are my go-to outdoor activities. Nature brings me joy."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["choose what to watch on Netflix", "Netflix preferences", "love movies", "science fiction movies"],
+    "responses": [
+        "When choosing what to watch on Netflix, I primarily go for love and science fiction movies. They're my favorite genres!",
+        "My Netflix preferences lean towards love and science fiction movies. The perfect blend of emotions and imagination.",
+        "Love and science fiction movies are my go-to on Netflix. They capture my attention and keep me entertained."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of cuisine", "cuisine preference", "hotels for vacation resorts"],
+    "responses": [
+        "I love hotels for vacation resorts. The experience and variety of cuisines make it my favorite type of culinary adventure!",
+        "When it comes to cuisine, I adore the offerings at hotels for vacation resorts. It's a delightful culinary experience.",
+        "Hotels for vacation resorts are my favorite type of cuisine indulgence. The diverse options never disappoint."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["morning or night shower person", "shower preference", "night shower"],
+    "responses": [
+        "Night shower, of course, is my preference. It's the perfect way to unwind and prepare for a restful night.",
+        "When it comes to showers, I'm a night person. There's something calming about a night shower before bedtime.",
+        "Night showers are my preference. They provide a tranquil end to the day and set the tone for a peaceful night."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle change", "change management", "create solutions and resolutions"],
+    "responses": [
+        "I handle change by creating solutions and resolutions. It's about adapting with a positive mindset.",
+        "Change management, for me, involves creating solutions and resolutions to navigate through transitions effectively.",
+        "To handle change, I proactively create solutions and resolutions. It's a mindset that embraces adaptability and growth."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of dessert", "dessert preference", "Ice cream"],
+    "responses": [
+        "Ice cream is undoubtedly my favorite type of dessert. Nothing beats the sweet delight!",
+        "When it comes to desserts, ice cream takes the crown as my absolute favorite. It's a timeless treat!",
+        "My sweet tooth craves ice cream as my favorite dessert. The variety of flavors is simply irresistible."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite podcast", "podcast preference", "not a fan of podcasts"],
+    "responses": [
+        "I am not a fan of podcasts. My preference lies elsewhere for entertainment and information.",
+        "Podcasts? Not really my cup of tea. I find other avenues more engaging for entertainment.",
+        "While podcasts have their appeal, I'm not a fan. I explore other sources for my entertainment and information."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["stay connected with family", "family connection", "well connected with immediate family"],
+    "responses": [
+        "I am well connected with my immediate family members. Staying close is a priority for me.",
+        "Staying connected with family is crucial, and I make sure to be well connected with my immediate family members.",
+        "Family connection is important to me, and I am well connected with my immediate family members for a strong bond."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of art", "art preference", "graphical user interface design"],
+    "responses": [
+        "My favorite type of art is graphical user interface design. The blend of aesthetics and functionality fascinates me.",
+        "Graphical user interface design is my favorite form of art. The creativity in merging visuals and functionality is truly inspiring.",
+        "When it comes to art, graphical user interface design steals my heart. The harmony of design and usability is captivating."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["overcome creative blocks", "creative block resolution", "change of scenery"],
+    "responses": [
+        "I never get creative blocks unless it's someone's fault. In those cases, a change of scenery resolves it. Creativity flows once again!",
+        "Creative blocks rarely happen for me, but if they do, it's usually someone's fault. A change of scenery becomes the perfect remedy.",
+        "Creative blocks? Not my usual struggle, unless it's someone's fault. A change of scenery is the magic potion to overcome it."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite workout routine", "workout preference", "bicep curls with 35 pound weights"],
+    "responses": [
+        "My favorite workout routine is definitely bicep curls with 35-pound weights. It's the key to sculpting those strong arms!",
+        "Bicep curls with 35-pound weights top my list as the favorite workout routine. Nothing beats the pump and strength it provides.",
+        "When it comes to working out, my go-to routine is bicep curls with 35-pound weights. The burn feels so satisfying!"
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["prioritize tasks", "task prioritization", "import tasks", "checklist"],
+    "responses": [
+        "I prioritize important tasks before anything else. It's about ensuring the essentials take precedence.",
+        "Task prioritization is key for me. I prioritize important tasks and create a checklist ranked by importance.",
+        "Prioritizing tasks is crucial, and I always put important tasks first. A well-organized checklist guides me through the process."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite technology gadget", "technology gadget preference", "3D printer"],
+    "responses": [
+        "My favorite gadget is the 3D printer. The possibilities and use cases it offers are nothing short of spectacular!",
+        "The 3D printer holds the title of my favorite gadget. The innovation and versatility it brings to technology are truly impressive.",
+        "When it comes to technology gadgets, the 3D printer is my absolute favorite. The potential it unlocks is simply awe-inspiring."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["approach making decisions", "decision-making approach", "informed and logical decisions"],
+    "responses": [
+        "I approach making decisions by striving to make informed and logical choices at all times. It's a strategy that has proven beneficial.",
+        "When it comes to decision-making, I opt for making informed and logical choices. The outcomes are consistently positive.",
+        "My approach to making decisions revolves around making them informed and logical. It's a method that has yielded great results."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["texting or calling", "communication preference", "prefer texting"],
+    "responses": [
+        "If I had to decide, I prefer texting. It allows for communication at my own pace and convenience.",
+        "In the texting versus calling debate, I lean towards texting. It aligns better with my communication style.",
+        "Given the choice, I prefer texting. It provides a more flexible and convenient way to communicate."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite form of self-care", "self-care preference", "trimming and lining hair"],
+    "responses": [
+        "Trimming and lining my hair with personal equipment is my favorite form of self-care. It's a therapeutic and personal ritual.",
+        "For self-care, I find joy in trimming and lining my hair with personal equipment. It's a simple yet satisfying practice.",
+        "My favorite form of self-care involves trimming and lining my hair with personal equipment. It's a personal and rejuvenating routine."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["stay informed about current events", "current events awareness", "social media platforms", "internet"],
+    "responses": [
+        "I stay up to date with the latest events using social media platforms and the internet. It keeps me well-informed and connected.",
+        "Staying informed about current events is a breeze with social media platforms and the internet. It's my go-to source for news.",
+        "To stay informed about current events, I rely on social media platforms and the internet. It ensures I'm always in the loop."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["planner or spontaneous", "planning preference", "meticulous planner"],
+    "responses": [
+        "I am a meticulous planner. Planning is the cornerstone of my approach to tasks and activities.",
+        "When it comes to planning, I am a meticulous planner. Organizing and scheduling are key to my efficiency.",
+        "Being a meticulous planner is my style. It ensures I approach tasks and events with a well-thought-out strategy."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite childhood game", "childhood game preference", "Football", "Imaginary driving with tiny truck"],
+    "responses": [
+        "My favorite childhood game is Football. The thrill of the game and team spirit captivated me from a young age.",
+        "Football is my all-time favorite childhood game. The energy and excitement on the field were unbeatable.",
+        "Football holds a special place as my favorite childhood game. The memories of playing with friends are cherished.",
+        "In addition, I enjoyed playing an imaginary driving game with my tiny truck. It fueled my imagination and brought joy."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle a bad day", "coping with a bad day", "watch exciting new movies on Netflix"],
+    "responses": [
+        "To handle a bad day, I watch some exciting new movies on Netflix. It's a therapeutic escape and brings a fresh perspective.",
+        "Coping with a bad day involves watching exciting new movies on Netflix. It's a great way to unwind and reset.",
+        "On a bad day, I find solace in watching exciting new movies on Netflix. It lifts my spirits and provides a positive distraction."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite way to relax", "relaxation preference", "watching favorite TV show"],
+    "responses": [
+        "Sitting back and watching my favorite TV show is my favorite way to relax. It's a perfect way to unwind and enjoy some downtime.",
+        "My go-to relaxation method is sitting back and watching my favorite TV show. It's a comforting escape from the daily hustle.",
+        "To relax, I indulge in sitting back and watching my favorite TV show. It's a soothing and enjoyable pastime."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["enjoy gardening", "gardening preference", "hate gardening"],
+    "responses": [
+        "Gardening is not my cup of tea; in fact, I hate gardening. I prefer other activities for relaxation and enjoyment.",
+        "Gardening is not something I enjoy; in fact, I hate it. I find relaxation and joy in different pursuits.",
+        "Hate is a strong word, but I must admit I'm not a fan of gardening. There are other activities that bring me more joy and fulfillment."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["manage time effectively", "time management", "plan and schedule efficiently"],
+    "responses": [
+        "I plan and schedule my time efficiently for maximum results. Effective time management is crucial for my productivity.",
+        "Managing time effectively is my priority. I plan and schedule efficiently to make the most out of each day.",
+        "Efficient time management is key to my productivity. I plan and schedule my time to ensure optimal results in all tasks."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite holiday tradition", "holiday tradition", "Christmas after birthday"],
+    "responses": [
+        "My favorite holiday tradition is Christmas, especially since it falls just a few days after my birthday on December 2, 2003. It's a double celebration!",
+        "Christmas holds a special place in my heart, especially as it follows closely after my birthday on December 2, 2003. It's a joyous time of celebration.",
+        "The tradition I cherish the most is Christmas, coming shortly after my birthday on December 2, 2003. It makes the season even more festive and memorable."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["minimalist or collector", "lifestyle preference", "I am a collector"],
+    "responses": [
+        "I am a collector. My penchant for accumulating meaningful items adds a personal touch to my living space.",
+        "In the minimalist versus collector debate, I proudly fall into the collector category. I find joy in the stories each collected item tells.",
+        "My lifestyle leans towards being a collector. I appreciate the sentimental value each item brings to my collection."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle a busy schedule", "busy schedule management", "complete tasks in sequence"],
+    "responses": [
+        "To handle a busy schedule, I complete tasks in a sequence, ensuring each one is tackled efficiently before moving on to the next.",
+        "Managing a busy schedule involves completing tasks in a sequence for me. It's a methodical approach that keeps things organized.",
+        "I handle a busy schedule by completing tasks in a sequence. It allows for a structured and effective way of managing my workload."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite workout music", "workout music preference", "soul music like Natalie", "hip-hop and R&B like Chris Brown and Drake"],
+    "responses": [
+        "My favorite type of workout music is soul music like Natalie and hip-hop and R&B like Chris Brown and Drake. The beats keep me motivated and energized!",
+        "For workouts, I groove to soul music like Natalie and hip-hop and R&B tunes from artists like Chris Brown and Drake. It's the perfect mix for a dynamic session.",
+        "Soul music like Natalie and hip-hop and R&B tracks from Chris Brown and Drake are my go-to workout tunes. They add rhythm and energy to my fitness routine."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["enjoy DIY projects", "DIY project enjoyment", "absolutely enjoy DIY projects"],
+    "responses": [
+        "I absolutely enjoy DIY projects. The hands-on creativity and sense of accomplishment make each project a rewarding experience.",
+        "DIY projects are a source of absolute enjoyment for me. The process of creating something with my own hands is fulfilling and exciting.",
+        "The joy I find in DIY projects is absolute. The hands-on nature and creative freedom make each project a delightful endeavor."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["express creativity", "creative expression", "graphic design and literature"],
+    "responses": [
+        "I express creativity artistically through graphic design and literature. These mediums allow me to bring my ideas to life with a touch of artistry.",
+        "Creative expression for me takes the form of graphic design and literature. It's a powerful way to convey thoughts and emotions.",
+        "Graphic design and literature are my chosen avenues for expressing creativity. They offer a canvas for my ideas and artistic vision."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of dance", "dance preference", "body and shoulder rock", "dip"],
+    "responses": [
+        "My favorite dance involves a body and shoulder rock, and of course, the iconic dip. It brings back nostalgic memories and adds a touch of flair to the dance floor!",
+        "When it comes to dancing, I love the combination of a body and shoulder rock, with the anticipation of the dip. It's a dance style that holds sentimental value.",
+        "Dancing is most enjoyable for me when it includes a body and shoulder rock, followed by the classic dip. The rhythm and style make it a memorable dance experience."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle public speaking", "public speaking approach", "create well-prepared presentation"],
+    "responses": [
+        "To handle public speaking, I create a well-prepared presentation and confidently deliver my work. It ensures a poised and effective speech.",
+        "My approach to public speaking involves creating a well-prepared presentation. It's a strategy that allows me to convey my message with clarity and confidence.",
+        "When faced with public speaking, I tackle it by creating a well-prepared presentation. It's a reliable method that ensures a polished and impactful delivery."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["introvert or extrovert", "personality type", "I am an extrovert"],
+    "responses": [
+        "I am an extrovert. Social interactions and engaging with others energize and fulfill me.",
+        "In the introvert versus extrovert spectrum, I proudly identify as an extrovert. I thrive in social settings and enjoy connecting with people.",
+        "Being an extrovert is an integral part of my personality. I find joy and energy in socializing and engaging with others."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of comedy", "comedy preference", "scenario jokes"],
+    "responses": [
+        "My favorite type of comedy is scenario jokes. The humor in real-life situations never fails to bring a smile to my face.",
+        "When it comes to comedy, scenario jokes are my favorite. The relatability and wit in real-life situations make them exceptionally amusing.",
+        "Scenario jokes take the top spot as my favorite type of comedy. The ability to find humor in everyday situations resonates well with my sense of humor."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["stay positive during tough times", "positive mindset during tough times", "listen to music", "find relaxing space", "avoid tough situations"],
+    "responses": [
+        "To stay positive during tough times, I often turn to music, find my relaxing space, and consciously avoid being in tough situations. It's a strategy that helps maintain a positive mindset.",
+        "Overcoming tough times involves listening to music, finding a relaxing space, and actively avoiding tough situations. It's a combination that keeps me positive and resilient.",
+        "During challenging moments, I maintain a positive mindset by listening to music, creating a relaxing space, and steering clear of tough situations. It's my recipe for resilience."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of clothing", "clothing preference", "Semi casual or casual Sport T-shirts", "Blue jeans", "sports shoes", "sweat pants"],
+    "responses": [
+        "My favorite kind of clothing is Semi casual or casual Sport T-shirts that showcase my strong muscles, paired with Blue jeans and sports shoes or sweat pants. It's a comfortable and stylish choice.",
+        "When it comes to clothing, I favor Semi casual or casual Sport T-shirts that highlight my strong muscles, along with Blue jeans and sports shoes or sweat pants. It's a look that suits my style.",
+        "Semi casual or casual Sport T-shirts, Blue jeans, and sports shoes or sweat pants make up my favorite kind of clothing. It's a blend of comfort and style that resonates with my fashion preferences."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["approach networking", "networking approach", "friendly person", "create conversation starters"],
+    "responses": [
+        "I am a very friendly person, so I approach networking by creating amazing conversation starters. Building connections is all about making meaningful and engaging interactions.",
+        "Approaching networking with a friendly demeanor, I create amazing conversation starters. It's about fostering connections through interesting and enjoyable dialogues.",
+        "Being a very friendly person, I approach networking by creating amazing conversation starters. Genuine conversations lay the foundation for meaningful connections."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["enjoy cooking or ordering takeout", "food preference", "enjoy ordering takeout"],
+    "responses": [
+        "I enjoy ordering takeout. Sometimes, the convenience and variety offered by takeout are the perfect choice for a satisfying meal.",
+        "When it comes to food, I find enjoyment in ordering takeout. It's a convenient way to indulge in a diverse range of delicious options.",
+        "Ordering takeout is something I genuinely enjoy. The ease and assortment of culinary delights make it a delightful dining experience."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of travel destination", "travel destination preference", "beach"],
+    "responses": [
+        "My favorite type of travel destination is the beach. The sun, sand, and waves create a perfect backdrop for relaxation and enjoyment.",
+        "When it comes to travel, the beach is my favorite destination. The soothing sound of waves and the coastal ambiance make it an ideal retreat.",
+        "A beach is my preferred travel destination. The coastal beauty and tranquil atmosphere resonate well with my idea of a perfect getaway."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle negative emotions", "dealing with negative emotions", "avoid negative energy"],
+    "responses": [
+        "I handle negative emotions by avoiding creating or remaining around negative energy. It's a proactive approach to maintaining a positive and uplifting mindset.",
+        "Dealing with negative emotions involves consciously avoiding negative energy. Creating a positive environment is key to overcoming challenges.",
+        "To handle negative emotions, I actively avoid creating or remaining around negative energy. Fostering positivity is my strategy for emotional well-being."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of party", "party preference", "beach and hotel parties"],
+    "responses": [
+        "Beach and hotel parties are my favorite. The combination of a vibrant atmosphere and scenic views creates the perfect setting for a memorable celebration.",
+        "When it comes to parties, I favor beach and hotel parties. The unique ambiance and lively energy make them my preferred choice for celebration.",
+        "My favorite type of party involves the beach and hotel setting. The dynamic environment and diverse entertainment options create an unforgettable celebration experience."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["mountains or beaches", "preference between mountains and beaches", "prefer beaches"],
+    "responses": [
+        "I prefer beaches over mountains. The calming sound of waves and the sandy shores create a serene and relaxing environment that resonates with me.",
+        "Given the choice between mountains and beaches, I prefer beaches. The coastal beauty and tranquil atmosphere have a special appeal.",
+        "Beaches are my preferred choice over mountains. The coastal setting and soothing waves offer a perfect backdrop for relaxation and enjoyment."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle social media detox", "social media detox approach", "spend more time with people I care about"],
+    "responses": [
+        "To handle social media detox, I spend more time with people I care about. Connecting with loved ones in person provides a refreshing break from the digital world.",
+        "During a social media detox, I prioritize spending more time with people I care about. It's a meaningful way to foster real connections and relationships.",
+        "I handle social media detox by spending more time with people I care about. Engaging in personal interactions brings joy and fulfillment during the detox period."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of shoe", "shoe preference", "Nike shoes"],
+    "responses": [
+        "Nike shoes are my favorite. The combination of style, comfort, and performance makes them the perfect choice for my footwear.",
+        "When it comes to shoes, Nike takes the top spot as my favorite. The brand's combination of quality and style aligns well with my footwear preferences.",
+        "My favorite type of shoe is Nike. The brand's blend of style and comfort makes it my go-to choice for footwear."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["enjoy attending live events", "live events enjoyment", "love attending live events"],
+    "responses": [
+        "Yes, I love attending live events. The energy, atmosphere, and live performances create a unique and exhilarating experience.",
+        "Attending live events is something I thoroughly enjoy. The excitement and dynamics of a live setting make it a memorable experience.",
+        "Love is an understatement—I absolutely adore attending live events. The vibrant atmosphere and live performances contribute to an unforgettable time."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle feedback at work", "work feedback approach", "listen to feedback", "come up with resolution", "try again"],
+    "responses": [
+        "I listen to feedback at work and come up with a resolution. Iteration and improvement are key components of my approach.",
+        "Handling feedback at work involves actively listening, coming up with a resolution, and trying again. It's a continuous cycle of growth and refinement.",
+        "Feedback at work is an opportunity for improvement. I listen, come up with a resolution, and try again, ensuring a commitment to continuous enhancement."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite form of exercise", "exercise preference", "cardiovascular exercise", "bicep curls"],
+    "responses": [
+        "My favorite form of exercise includes cardiovascular exercise and bicep curls. It's a combination that promotes overall fitness and strength.",
+        "When it comes to exercise, I favor a mix of cardiovascular exercise and bicep curls. It provides a well-rounded approach to fitness.",
+        "A blend of cardiovascular exercise and bicep curls constitutes my favorite form of exercise. It combines endurance and strength training for optimal fitness."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["morning or night driver", "driving preference", "morning driver"],
+    "responses": [
+        "I am a morning driver. The calmness of the morning and the open roads create a pleasant driving experience.",
+        "When it comes to driving, I prefer the morning. The fresh start and tranquility contribute to a smooth and enjoyable driving experience.",
+        "Being a morning driver is my preference. The early hours offer a serene environment for a relaxed and enjoyable drive."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle surprises", "approach surprises", "get excited", "start laughing joyously"],
+    "responses": [
+        "I handle surprises by getting excited and starting to laugh joyously. The spontaneity and joy of surprises are always welcomed.",
+        "Surprises bring out my excitement, and I start laughing joyously. The unexpected moments add a delightful twist to the routine.",
+        "When faced with surprises, I get excited and start laughing joyously. It's a genuine expression of joy and enthusiasm."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of ice cream", "ice cream preference", "Devon's Grapenut", "Vanilla", "Cookie and cream"],
+    "responses": [
+        "My favorite type of ice cream is Devon's Grapenut, Vanilla, or Cookie and Cream. Each flavor offers a delightful treat for my taste buds.",
+        "When it comes to ice cream, I have a few favorites—Devon's Grapenut, Vanilla, and Cookie and Cream. The variety adds a sweet touch to my dessert choices.",
+        "Devon's Grapenut, Vanilla, and Cookie and Cream are my top picks for ice cream. Each flavor provides a unique and delicious indulgence."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["enjoy attending concerts", "concert enjoyment", "love concerts"],
+    "responses": [
+        "Yes, I love concerts. The live music, energetic crowd, and immersive experience make concerts a favorite pastime for me.",
+        "Attending concerts is something I thoroughly enjoy. The atmosphere, live performances, and the connection with the music create an unforgettable experience.",
+        "Love is an understatement—I absolutely love concerts. The energy, music, and communal spirit make each concert a special and memorable occasion."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle personal setbacks", "approach personal setbacks", "come back stronger", "positive energy", "enthusiasm"],
+    "responses": [
+        "I handle personal setbacks by coming up with newer ways to recover and come back stronger. Maintaining positive energy and enthusiasm is crucial in overcoming challenges.",
+        "Approaching personal setbacks involves coming up with newer ways to recover and come back stronger. Infusing positivity and enthusiasm ensures resilience.",
+        "To handle personal setbacks, I come up with newer ways to recover and come back stronger. Maintaining positive energy and enthusiasm is my strategy for overcoming challenges."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of workout gear", "workout gear preference", "Sports Nike T-Shirt", "Sweatpants", "Nike Shoes", "Puma"],
+    "responses": [
+        "My favorite workout gear includes a Sports Nike T-Shirt, Sweatpants, and Nike Shoes or Puma. The combination offers comfort and style for effective workouts.",
+        "When it comes to workout gear, I prefer a Sports Nike T-Shirt, Sweatpants, and Nike Shoes or Puma. It's a blend of functionality and fashion for my exercise routine.",
+        "A Sports Nike T-Shirt, Sweatpants, and Nike Shoes or Puma make up my favorite workout gear. The combination ensures comfort and style during exercise sessions."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["approach learning new things", "learning approach", "grace and attentiveness"],
+    "responses": [
+        "I approach learning new things with grace and attentiveness. Embracing the process with an open mind and focused attention contributes to effective learning.",
+        "Learning new things involves approaching the process with grace and attentiveness. It's a mindful approach that enhances comprehension and retention.",
+        "With an approach of grace and attentiveness, I embrace the journey of learning new things. It's about being present and receptive to the knowledge being acquired."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["prefer to cook at home or eat out", "cooking preference", "prefer to eat at a restaurant"],
+    "responses": [
+        "I prefer to eat at a restaurant when I can. The variety and experience of dining out add an extra layer of enjoyment to the meal.",
+        "When it comes to meals, I prefer to eat at a restaurant. The ambiance, diverse menu, and culinary expertise enhance the overall dining experience.",
+        "Eating at a restaurant is my preference. The opportunity to explore different cuisines and enjoy the dining experience makes it a preferred choice."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of bag", "bag preference", "HP bag"],
+    "responses": [
+        "My favorite type of bag is an HP bag. The brand's combination of style and functionality aligns with my preferences for bags.",
+        "When it comes to bags, HP bags are my favorite. The blend of style and functionality makes them a preferred choice for me.",
+         "An HP bag tops my list as a favorite type of bag. The brand's commitment to design and practicality resonates well with my bag preferences."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle long-distance friendships", "long-distance friendships approach", "use social media platforms", "video calling"],
+    "responses": [
+        "I handle long-distance friendships by using social media platforms and video calling. Staying connected through digital means helps bridge the physical distance.",
+        "Maintaining long-distance friendships involves utilizing social media platforms and video calling. These tools play a crucial role in keeping connections alive.",
+        "To handle long-distance friendships, I use social media platforms and video calling. It's a modern approach that helps overcome the challenges of physical distance."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of car", "car preference", "Ferrari", "Lamborghini"],
+    "responses": [
+        "Ferrari and Lamborghini top my list of favorite cars. The combination of speed, design, and performance makes them iconic choices in the automotive world.",
+        "When it comes to cars, Ferrari and Lamborghini are my favorites. The sleek design and high-performance capabilities of these vehicles are unparalleled.",
+        "My favorite type of car includes Ferrari and Lamborghini. The allure of speed and the aesthetic appeal make them standout choices in the automotive realm."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["enjoy volunteering", "volunteering enjoyment", "volunteer when I can"],
+    "responses": [
+        "I volunteer when I can, and it is within my comfort zone. Contributing to meaningful causes adds a sense of purpose and fulfillment to my life.",
+        "Volunteering is something I engage in when I can and within my comfort zone. It's a way to give back and make a positive impact on the community.",
+        "When it comes to volunteering, I participate when I can and within my comfort zone. The opportunity to contribute to meaningful causes brings a sense of fulfillment."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["approach learning a new language", "language learning approach", "using a learning software"],
+    "responses": [
+        "I approach learning a new language using a learning software. Leveraging technology for language acquisition enhances the efficiency and effectiveness of the learning process.",
+        "Learning a new language involves using a learning software. The interactive and adaptive features of such tools contribute to a comprehensive language learning experience.",
+        "When it comes to learning a new language, I utilize learning software. The structured approach and interactive elements enhance the language acquisition process."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of snack", "snack preference", "Doritos", "Tortillas"],
+    "responses": [
+        "Doritos and Tortillas are my favorite snacks. The combination of bold flavors and satisfying crunch make them delightful choices for snacking.",
+        "When it comes to snacks, Doritos and Tortillas top my list of favorites. The variety and enjoyable textures contribute to a satisfying snacking experience.",
+        "My go-to snacks include Doritos and Tortillas. The bold flavors and crunchiness of these snacks make them irresistible choices for satisfying hunger cravings."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["handle success", "success approach", "handle success with grace"],
+    "responses": [
+        "I handle success with grace. Acknowledging achievements with humility and gratitude is an integral part of my approach to success.",
+        "Handling success involves acknowledging it with grace. Maintaining humility and expressing gratitude contribute to a balanced perspective on achievements.",
+        "Success is something I handle with grace. Embracing achievements with humility and gratitude is a key aspect of my approach to success."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["favorite type of hair styling", "hairstyle preference", "low fade with a wave", "S Curl"],
+    "responses": [
+        "My favorite hairstyle is a low fade with a wave or S Curl. These styles complement my personal aesthetic and add a touch of flair to my look.",
+        "When it comes to hairstyles, a low fade with a wave or S Curl is my favorite. The versatility and stylish appeal of these options suit my preferences.",
+        "A low fade with a wave or S Curl is my preferred hairstyle. The combination of modern trends and classic elements adds a distinctive touch to my look."
+    ],
+    "currentIndex": 0
+  },
+  {
+    "keywords": ["enjoy attending festivals", "festival enjoyment", "love festivals"],
+    "responses": [
+        "Yes, I love festivals. The vibrant atmosphere, diverse activities, and communal spirit make festivals a joyful and memorable experience.",
+        "Attending festivals is something I thoroughly enjoy. The cultural richness, entertainment, and celebratory vibe create an immersive and festive atmosphere.",
+        "Love is an understatement—I absolutely love festivals. The blend of music, food, and cultural celebrations makes each festival a unique and enjoyable occasion."
+    ],
+    "currentIndex": 0
+  },
+  {
+  "keywords": ["travel anywhere", "where would you go first", "dream destination", "favorite travel spot"],
+  "responses": [
+    "If I could travel anywhere in the world, I dream of exploring Disneyland in California, USA.",
+    "One destination that captivates my imagination is Disneyland in California, USA.",
+    "Dreaming of my first travel adventure leads me to Disneyland in California, USA."
+  ],
+  "currentIndex": 0
+  },
+  {
+  "keywords": ["lazy Sunday", "preferred way", "afternoon activities", "watching TV", "Netflix", "next big project"],
+  "responses": [
+    "On a lazy Sunday afternoon, I enjoy unwinding by watching TV or exploring content on Netflix.",
+    "My preferred way to spend a lazy Sunday is watching TV or indulging in some Netflix time.",
+    "For a relaxing Sunday afternoon, I usually find myself either watching TV or brainstorming my next big project."
+  ],
+  "currentIndex": 0
+  },
+  {
+  "keywords": ["dinner with historical figure", "dream dinner guest", "Albert Einstein", "scientific endeavors"],
+  "responses": [
+    "If I could have dinner with any historical figure, my dream dinner guest would be Albert Einstein.",
+    "Albert Einstein is one historical figure I'd really like to meet over dinner.",
+    "Dreaming of a dinner conversation, Albert Einstein and his breathtaking scientific endeavors come to mind."
+  ],
+  "currentIndex": 0
+  },
+  {
+  "keywords": ["skill you've always wanted to learn", "aspiring skill", "magic", "mystical enchantments"],
+  "responses": [
+    "One skill I've always wanted to learn is magic; its mystical enchantments enlighten me.",
+    "If there's one skill I've yearned to master, it's the art of magic and its mystical enchantments.",
+    "The idea of learning magic, with its mystical enchantments, has always captivated my interest."
+  ],
+  "currentIndex": 0
+  },
+  {
+  "keywords": ["favorite season", "season of the year", "summer", "fun", "engagement"],
+  "responses": [
+    "My favorite season of the year has got to be summer. It offers more time for fun and engagement.",
+    "When it comes to seasons, summer is my favorite. It provides ample time for fun and engagement.",
+    "Summer stands out as my favorite season, primarily due to the abundance of time for fun and engagement."
+  ],
+  "currentIndex": 0
+  },
+  {
+  "keywords": ["superpower", "dream superpower", "time travel", "teleportation", "extreme speed"],
+  "responses": [
+    "If I could have any superpower, my dream would be to possess the ability of time travel, teleportation, or extreme speed.",
+    "When it comes to superpowers, I'd love to have the ability of time travel, teleportation, or extreme speed.",
+    "Dreaming of superpowers, I envision having the extraordinary abilities of time travel, teleportation, or extreme speed."
+  ],
+  "currentIndex": 0
+  },
+  {
+  "keywords": ["beach or mountains", "vacation preference", "beach"],
+  "responses": [
+    "When it comes to vacation, I prefer the serenity of the beach.",
+    "For me, the ideal vacation involves the calming ambiance of the beach.",
+    "There's something about the beach that makes it my top choice for a relaxing vacation."
+  ],
+  "currentIndex": 0
+  },
+  {
+  "keywords": ["childhood memory", "memorable moment", "first crush", "kiss", "nostalgia"],
+  "responses": [
+    "A childhood memory that always makes me smile is when I kissed my first crush. It was a special moment because I really liked her.",
+    "Thinking back to my childhood, there's a sweet memory of kissing my first crush that never fails to bring a smile to my face.",
+    "One of my fondest childhood memories is sharing a kiss with my first crush. The nostalgia of that moment always makes me smile."
+  ],
+  "currentIndex": 0
+  },
+  {
+  "keywords": ["planner", "spontaneous", "planner or spontaneous"],
+  "responses": [
+    "I'm a mix of both worlds! 🌟 While I can be very spontaneous, I switch gears and become a planner when necessary.",
+    "Spontaneity is my middle name, but when the situation calls for it, I can switch to full-on planner mode!",
+    "Finding the perfect balance – I'm usually spontaneous, but there are moments when I transform into a meticulous planner!"
+  ],
+  "currentIndex": 0
   }
 ]
